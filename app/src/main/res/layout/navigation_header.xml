@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+    
+    <ImageView
+        android:layout_width="@dimen/nav_drawer_width"
+        android:layout_height="@dimen/nav_drawer_header_height"
+        android:src="@drawable/ic_menu_home"
+        android:background="@color/colorPrimaryDark"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/tvFullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_110"
+        android:text="Calvin Ondieki"
+        android:paddingLeft="@dimen/padding_extra_large_20"
+        android:textStyle="bold"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvFullName"
+        android:layout_marginTop="@dimen/padding_small_5"
+        android:text="calvin@gmail.com"
+        android:paddingLeft="@dimen/padding_extra_large_20"
+        android:textColor="#fff"/>
+
+</RelativeLayout>

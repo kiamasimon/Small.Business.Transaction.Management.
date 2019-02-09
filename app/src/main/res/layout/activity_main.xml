@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.developer.calvin.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lbl1"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Amount:: "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/amount"
+        android:textColor="@color/colorAccent"
+        android:layout_marginLeft="80dp"
+        android:layout_toRightOf="@+id/lbl1"
+        android:text="Amount"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lbl2"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_below="@+id/amount"
+            android:text="Phone Number:: "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/phonenumber"
+        android:textColor="@color/colorAccent"
+        android:layout_marginLeft="40dp"
+        android:layout_toRightOf="@+id/lbl2"
+        android:layout_below="@+id/amount"
+        android:text="Phone Number"/>
+
+        <Button
+            android:layout_width="140dp"
+            android:textColor="#fff"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/bn"
+            android:layout_marginTop="40dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:layout_below="@+id/phonenumber"
+            android:text="Make Payment"
+            android:elevation="10dp"/>
+    </RelativeLayout>
+</RelativeLayout>

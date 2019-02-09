@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lbl"
+        android:text="Add a Product"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/lbl">
+
+        <TextView
+            android:fontFamily="serif-monospace"
+            android:textSize="17dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/lbl1"
+            android:text="Product Name"/>
+    <EditText
+        android:fontFamily="serif-monospace"
+        android:textSize="17dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/lbl1"
+        android:layout_marginRight="10dp"
+        android:id="@+id/edProductName"/>
+
+        <TextView
+            android:fontFamily="serif-monospace"
+            android:textSize="17dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/lbl2"
+            android:layout_below="@+id/edProductName"
+            android:text="Price Per Commodity"/>
+    <EditText
+        android:fontFamily="serif-monospace"
+        android:textSize="17dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:inputType="number"
+        android:id="@+id/edPricePerCommodity"
+        android:layout_below="@+id/lbl2"/>
+
+        <TextView
+            android:fontFamily="serif-monospace"
+            android:textSize="17dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/lbl3"
+            android:layout_below="@+id/edPricePerCommodity"
+            android:text="Number of Items"/>
+    <EditText
+        android:fontFamily="serif-monospace"
+        android:textSize="17dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/edNumberOfItems"
+        android:inputType="number"
+        android:layout_below="@+id/lbl3" />
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:textSize="17dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/edNumberOfItems"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:text="select Date Received"
+            android:id="@+id/edDateReceived"/>
+
+
+        <Button
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="30dp"
+            android:layout_width="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:textSize="17dp"
+            android:layout_below="@+id/edDateReceived"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="Select Expiry Date"
+            android:clickable="true"
+            android:id="@+id/edExpiryDate"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edExpiryDate"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="SUBMIT"
+            android:textColor="#fff"
+            android:id="@+id/bn"
+            android:background="@color/colorPrimaryDark"
+            />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cvProduct"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:layout_marginBottom="@dimen/padding_small_5"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/tvProductTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/padding_medim_10"
+            android:layout_marginTop="@dimen/padding_small_5"
+            android:maxLength="20"
+            android:textStyle="bold"
+            tools:text="Title"/>
+
+        <TextView
+            android:id="@+id/tvProductPriceLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvProductTitle"
+            android:layout_marginLeft="@dimen/padding_medim_10"
+            android:layout_marginTop="@dimen/padding_small_5"
+            android:text="@string/price_label"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvProductPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvProductTitle"
+            android:layout_marginLeft="@dimen/padding_medim_10"
+            android:layout_marginTop="@dimen/padding_small_5"
+            android:layout_toEndOf="@+id/tvProductPriceLabel"
+            android:layout_toRightOf="@+id/tvProductPriceLabel"
+            tools:text="200 $s"
+            android:textColor="@color/colorAccent"/>
+
+        <TextView
+            android:id="@+id/tvProductQuantityLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvProductPriceLabel"
+            android:layout_marginLeft="@dimen/padding_medim_10"
+            android:layout_marginTop="@dimen/padding_medim_10"
+            android:text="@string/quantity_label"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/etProductQuantity"
+            android:layout_width="wrap_content"
+            android:inputType="number"
+            android:textSize="@dimen/padding_medim_10"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvProductPriceLabel"
+            android:layout_toEndOf="@+id/tvProductQuantityLabel"
+            android:layout_toRightOf="@+id/tvProductQuantityLabel"
+            tools:text="1"/>
+
+        <ImageView
+            android:id="@+id/ivRemoveFromCart"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/ic_remove"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

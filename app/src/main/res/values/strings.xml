@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Business</string>
+    <string name="email">E-mail</string>
+
+    <string name="Transaction">Transaction</string>
+    <string name="Purchase">Purchase</string>
+    <string name="Product">Product</string>
+    <string name="Calculator">Calculator</string>
+
+    <string name="password">Password</string>
+    <string name="new_user">New User?</string>
+    <string name="signup">Sign Up Here</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="send_password">Send Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="retype_password">Repeat Password</string>
+    <string name="already_member">Already Member?</string>
+    <string name="error">Error</string>
+    <string name="success">Success</string>
+    <string name="empty_error">All fields are required</string>
+    <string name="general_error">An error has occurred</string>
+    <string name="email_error">Invalid E-mail address</string>
+    <string name="full_name_error">Full Name must contains only letters</string>
+    <string name="ok">OK</string>
+    <string name="login_success">You have successfully logged in</string>
+    <string name="password_error">Password must be at least 6 characters long</string>
+    <string name="retype_password_error">The password and the repeated password are not the same</string>
+    <string name="know_password">Already Member?</string>
+    <string name="email_empty_error">Email address is required</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_category">Category</string>
+    <string name="nav_orders_history">Purchase history</string>
+    <string name="nav_cart">Basket</string>
+    <string name="nav_profile">Profile</string>
+    <string name="logout">Log out</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="add_to_cart">Add in Basket</string>
+    <string name="price_label">Price:</string>
+    <string name="quantity_label">Quantity:</string>
+    <string name="featured_products">Highlights from the offer</string>
+    <string name="specifications">Specification:</string>
+    <string name="categories">Categories</string>
+    <string name="cart">Your products are here</string>
+    <string name="in_total">In total:</string>
+    <string name="place_order">Place your order</string>
+    <string name="order">Order placed</string>
+    <string name="city">City</string>
+    <string name="zip_code">Zip-Code</string>
+    <string name="address">Address</string>
+    <string name="phone_number">Phone number</string>
+    <string name="empty_cart_error">Your basket is empty</string>
+
+    <!--Title for fragments-->
+    <string name="home_title">Home</string>
+    <string name="order_history_title">Your order history</string>
+    <string name="category_title">Choose Yours</string>
+    <string name="cart_title">Basket</string>
+    <string name="order_activity_title">Order</string>
+    <string name="category_activity_title">Right for You</string>
+
+    <!--ratings Stars-->
+    <string name="enjoy">We hope you enjoyed your shopping with us today</string>
+    <string name="ratings_star">Awesome. I love it</string>
+    <string name="feedback">Tell us what you loved</string>
+    <string name="send_feedback">Send feedback</string>
+    <string name="nav_feedback">Rate Us!</string>
+    <string name="ratings_title">Feedback</string>
+
+    <string name="search">Search</string>
+    <string name="search_hint">Search...</string>
+    <string name="no_data_available">No Data Available</string>
+    <string name="my_account">My account</string>
+
+
+    <string name="full_name_placeholder">Full Name: %s</string>
+    <string name="email_placeholder">E-mail: %s</string>
+    <string name="shipping_address">Shipping address</string>
+    <string name="save">Save</string>
+    <string name="change_password">Change Password</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="insert_my_address">Insert my Address</string>
+    <string name="rating_placeholder">Ocena: %s/5</string>
+    <string name="comment_placeholder">Komentar: %s</string>
+    <string name="comments">Comments</string>
+    <string name="comment_error">You need to enter value and comment</string>
+
+    <string name="sort">Sort</string>
+
+    <string-array name="sort_array">
+        <item>Price Rising</item>
+        <item>Price Declining</item>
+        <item>Name A-Z</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

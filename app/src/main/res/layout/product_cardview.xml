@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    app:cardCornerRadius="4dp"
+    android:layout_marginTop="10dp"
+    card_view:cardElevation="10dp"
+    card_view:contentPadding="2dp"
+    android:paddingBottom="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+
+    <RelativeLayout
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:background="#ffffff">
+
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product Name::"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product Name"
+            android:textColor="#000"
+            android:id="@+id/textViewProductName"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="100dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Items In Stock:: "
+            android:layout_marginTop="2dp"
+            android:layout_below="@+id/textViewProductName"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Items In Stock"
+            android:layout_marginLeft="100dp"
+            android:textColor="#000"
+            android:layout_marginTop="2dp"
+            android:id="@+id/textViewStock"
+            android:layout_below="@+id/textViewProductName"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price per item/Kg:: "
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginTop="2dp"
+            android:id="@+id/lbl1"
+            android:layout_below="@+id/textViewStock"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textColor="#000"
+            android:layout_toRightOf="@+id/lbl1"
+            android:layout_marginLeft="4dp"
+            android:id="@+id/textViewPrice"
+            android:text="Price"
+            android:layout_below="@+id/textViewStock"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date received:: "
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginTop="2dp"
+            android:id="@+id/lbl2"
+            android:layout_below="@+id/textViewPrice"/>
+        <TextView
+            android:layout_marginTop="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:textColor="#000"
+            android:id="@+id/textViewDate"
+            android:layout_below="@id/textViewPrice"
+            android:text="date received"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/lbl3"
+            android:text="Days to Expiry::"
+            android:layout_below="@+id/lbl2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/difference"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_below="@+id/lbl2"
+            android:layout_toRightOf="@+id/lbl3"
+            android:hint="Days"
+            />
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

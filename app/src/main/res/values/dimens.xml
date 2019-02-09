@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_small_5">5dp</dimen>
+    <dimen name="padding_normal_8">8dp</dimen>
+    <dimen name="padding_medim_10">10dp</dimen>
+    <dimen name="padding_large_15">15dp</dimen>
+    <dimen name="padding_extra_large_20">20dp</dimen>
+    <dimen name="padding_too_large_30">30dp</dimen>
+    <dimen name="padding_50">50dp</dimen>
+    <dimen name="padding_110">110dp</dimen>
+
+    <dimen name="text_size_small_5">5sp</dimen>
+    <dimen name="text_size_normal_8">8sp</dimen>
+    <dimen name="text_size_medium_10">10sp</dimen>
+    <dimen name="text_size_large_12">12sp</dimen>
+    <dimen name="text_size_extra_large_15">15sp</dimen>
+
+    <dimen name="nav_drawer_width">304dp</dimen>
+    <dimen name="nav_drawer_header_height">170dp</dimen>
+</resources>

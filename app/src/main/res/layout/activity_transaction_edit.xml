@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.developer.calvin.TransactionEditActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp">
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="serif-monospace"
+        android:textSize="17dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product Name"
+        android:id="@+id/lbl1"/>
+    <EditText
+        android:textSize="17dp"
+        android:fontFamily="serif-monospace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbl1"
+        android:id="@+id/edProductName"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17dp"
+        android:fontFamily="serif-monospace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lbl2"
+        android:text="Received Date"
+        android:layout_below="@+id/edProductName"/>
+    <EditText
+        android:textSize="17dp"
+        android:fontFamily="serif-monospace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbl2"
+        android:id="@+id/edReceivedDate"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17dp"
+        android:fontFamily="serif-monospace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lbl3"
+        android:text="Expiry Date"
+        android:layout_below="@+id/edReceivedDate"/>
+    <EditText
+        android:textSize="17dp"
+        android:fontFamily="serif-monospace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbl3"
+        android:id="@+id/edExpiryDate"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17dp"
+        android:fontFamily="serif-monospace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Items Available"
+        android:layout_below="@+id/edExpiryDate"
+        android:id="@+id/lbl4"/>
+    <EditText
+        android:textSize="17dp"
+        android:fontFamily="serif-monospace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edQuantity"
+        android:layout_below="@+id/lbl4"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17dp"
+        android:fontFamily="serif-monospace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lbl5"
+        android:text="Single Item Price"
+        android:layout_below="@+id/edQuantity"/>
+    <EditText
+        android:textSize="17dp"
+        android:fontFamily="serif-monospace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbl5"
+        android:id="@+id/edPricePerCommodity"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17dp"
+            android:fontFamily="serif-monospace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lbl6"
+            android:text="Selling Price"
+            android:layout_below="@+id/edPricePerCommodity"/>
+        <EditText
+            android:textSize="17dp"
+            android:fontFamily="serif-monospace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lbl6"
+            android:id="@+id/edSellingPrice"/>
+
+        <Button
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:fontFamily="serif-monospace"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bnUpdate"
+            android:layout_below="@+id/edSellingPrice"
+            android:layout_marginTop="40dp"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#fff"
+            android:text="Update"/>
+
+        <Button
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:fontFamily="serif-monospace"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="40dp"
+            android:id="@+id/bnDelete"
+            android:text="Delete"
+            android:layout_toRightOf="@+id/bnUpdate"
+            android:layout_marginLeft="80dp"
+            android:layout_below="@+id/edSellingPrice"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

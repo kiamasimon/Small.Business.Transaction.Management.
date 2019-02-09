@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardview1"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="7dp"
+    android:layout_marginRight="7dp"
+    android:layout_marginTop="15dp"
+    android:layout_height="wrap_content"
+    card_view:cardElevation="10dp"
+    card_view:contentPadding="2dp"
+    android:paddingBottom="10dp"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardMaxElevation="12dp"
+    android:background="#000">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="10dp"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lbl1"
+            android:text="Product Name"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:fontFamily="sans-serif-condensed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/lbl1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="4dp"
+            android:textSize="14sp"
+            android:textColor="@color/colorAccent"
+            android:text="Product Name"
+            android:id="@+id/textViewName"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lbl3"
+            android:text="Creation Date"
+            android:layout_below="@+id/textViewName"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:fontFamily="sans-serif-condensed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/lbl3"
+            android:layout_below="@+id/textViewName"
+            android:textSize="14sp"
+            android:textColor="@color/colorAccent"
+            android:text="Date Received"
+            android:id="@+id/textViewDate"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lbl4"
+            android:text="Total Amount Spent"
+            android:layout_below="@+id/textViewDate"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:fontFamily="sans-serif-condensed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_toRightOf="@+id/lbl3"
+            android:layout_below="@+id/textViewDate"
+            android:textSize="14sp"
+            android:textColor="@color/colorAccent"
+            android:text="Buying Price"
+            android:id="@+id/textViewBuying"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lbl5"
+            android:text="Selling Price"
+            android:layout_below="@+id/textViewBuying"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:fontFamily="sans-serif-condensed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/lbl3"
+            android:layout_below="@+id/textViewBuying"
+            android:textSize="14sp"
+            android:textColor="@color/colorAccent"
+            android:text="Sellling Price"
+            android:id="@+id/textViewSelling"/>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

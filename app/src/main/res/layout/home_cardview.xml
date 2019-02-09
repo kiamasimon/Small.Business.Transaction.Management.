@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardview1"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="7dp"
+    android:layout_marginRight="7dp"
+    android:layout_marginTop="15dp"
+    android:layout_height="wrap_content"
+    card_view:cardElevation="10dp"
+    card_view:contentPadding="2dp"
+    android:paddingBottom="10dp"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardMaxElevation="12dp"
+    android:background="#000">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="10dp"
+        android:background="#ffffff"
+        android:layout_marginLeft="10dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/lbl2"
+            android:text="Amount"/>
+        <TextView
+            android:fontFamily="sans-serif-condensed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/lbl2"
+            android:layout_below="@+id/textViewName"
+            android:layout_marginTop="4dp"
+            android:textSize="14sp"
+            android:textColor="@color/colorAccent"
+            android:text="Price"
+            android:id="@+id/textViewAmount"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_below="@+id/textViewAmount"
+            android:id="@+id/lbl3"
+            android:text="Date"/>
+        <TextView
+            android:fontFamily="sans-serif-condensed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/lbl3"
+            android:layout_below="@+id/textViewAmount"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Date"
+            android:id="@+id/textViewComment"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_below="@+id/textViewComment"
+            android:id="@+id/lbl4"
+            android:text="Customer Name"/>
+        <TextView
+            android:fontFamily="sans-serif-condensed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/lbl4"
+            android:layout_below="@+id/textViewComment"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Customer Name"
+            android:id="@+id/textViewCustomer"/>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

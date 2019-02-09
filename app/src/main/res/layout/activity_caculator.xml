@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/rv"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="40dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lbl1"
+            android:text="Enter Commodity Name"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"/>
+        <EditText
+            android:layout_marginTop="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edCommodityName"
+            android:layout_below="@+id/lbl1"
+            android:fontFamily="serif-monospace"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edCommodityName"
+            android:id="@+id/lbl2"
+            android:text="Enter Commodity Buying Price::"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"/>
+        <EditText
+            android:layout_marginTop="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edBuyingPrice"
+            android:inputType="number"
+            android:layout_below="@+id/lbl2"
+            android:fontFamily="serif-monospace"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edBuyingPrice"
+            android:id="@+id/lbl3"
+            android:text="Enter Profit in Percentage::"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"/>
+        <EditText
+            android:layout_marginTop="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_below="@+id/lbl3"
+            android:id="@+id/edProfit"
+            android:fontFamily="serif-monospace" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edProfit"
+            android:id="@+id/lbl4"
+            android:text="Selling Price Should Be:: "
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edSellingPrice"
+            android:fontFamily="serif-monospace"
+            android:layout_below="@+id/lbl4"
+            android:layout_marginTop="4dp"
+            android:editable="false"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bn"
+            android:textColor="#fff"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"
+            android:text="Print Report"
+            android:layout_below="@+id/edSellingPrice"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="20dp"/>
+
+    </RelativeLayout>
+

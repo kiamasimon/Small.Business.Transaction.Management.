@@ -1,0 +1,78 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.developer.calvin.Fragments.TransactionFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lbl"
+        android:layout_marginTop="20dp"
+        android:text="Create a Transaction"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif-monospace"
+        android:textColor="#000"
+        android:textSize="20dp"/>
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/edCustomerName"
+       android:hint="Customer Name"
+       android:fontFamily="serif-monospace"
+       android:layout_below="@+id/lbl"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edCustomer_Address"
+        android:layout_below="@+id/edCustomerName"
+        android:fontFamily="serif-monospace"
+        android:hint="Customer Address"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edAmount"
+        android:layout_below="@id/edCustomer_Address"
+        android:fontFamily="serif-monospace"
+        android:inputType="number"
+        android:hint="Amount in Kenyan Shillings"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edAmount"
+            android:id="@+id/edRemark"
+            android:fontFamily="serif-monospace"
+            android:hint="Remark"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edRemark"
+        android:id="@+id/edPhoneNumber"
+        android:fontFamily="serif-monospace"
+        android:hint="254+PhoneNumber"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bn"
+            android:text="Make Payment"
+            android:fontFamily="serif-monospace"
+            android:background="@color/colorPrimaryDark"
+            android:layout_below="@+id/edPhoneNumber"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"/>
+
+    </RelativeLayout>
+
+</FrameLayout>
